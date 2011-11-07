@@ -2,7 +2,7 @@ dateFuture1 = new Date(2012,1,13,23,59,59);
 function GetCount(ddate,iid){ 
  
  dateNow = new Date();
- amount = ddate.getTime() - dateNow.getTime();
+ amount = dateFuture1.getTime() - dateNow.getTime();
  delete dateNow; 
   if(amount < 0){ 
   document.getElementById(iid).innerHTML="Now!"; 
@@ -28,6 +28,7 @@ function GetCount(ddate,iid){
   //out += (mins<=9?'0':'')+mins +" "+((mins==1)?"":"")+": "; 
   //out += (secs<=9?'0':'')+secs +" "+((secs==1)?"":""); 
   //out = out.substr(0,out.length); 
+  out = '';
   document.getElementById(iid).innerHTML=out; 
  
   setTimeout(function(){GetCount(ddate,iid)}, 1000); 
