@@ -205,6 +205,7 @@ margin-top:0px;
 #navlist{position:relative;}
 #navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;margin-left:3%;}
 #navlist li, #navlist a{height:95px;display:block;}
+#navlist li:hover {cursor:pointer;}
 
 #event{left:0px;width:112px;}
 #event{background:url('../pics/sprite.png') 0 0;}
@@ -368,6 +369,9 @@ margin-top:0px;
 #spr_dnt{left:339px;width:112px;}
 #spr_dnt{background:url('../pics/sprite.png') -337px 0;}
 #spr_dnt a:hover{background: url('../pics/sprite.png') -336px -95px;}
+
+input {font-size:0.7em;border:none;padding-left:3px;padding-right:3px;margin-top:3px;margin-bottom:3px;}
+input[type="submit"] {margin-top:5px;}
 
 /*iphone.css*/
 
