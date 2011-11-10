@@ -205,7 +205,6 @@ margin-top:0px;
 #navlist{position:relative;}
 #navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;margin-left:3%;}
 #navlist li, #navlist a{height:95px;display:block;}
-#navlist li:hover {cursor:pointer;}
 
 #event{left:0px;width:112px;}
 #event{background:url('../pics/sprite.png') 0 0;}
@@ -280,29 +279,29 @@ margin-top:0px;
 #robotics li{margin:0;padding:0;list-style:none;position:absolute;top:0;margin-left:3%;}
 #robotics li, #robotics a{height:95px;display:block;}
 
-#spr_robowars{left:0px;width:112px;}
-#spr_robowars{background:url('../pics/sprite.png') 0 0;}
-#spr_robowars a:hover{background: url('../pics/sprite.png') 0 -95px;}
+#spr_robowars{left:160px;width:100px;}
+#spr_robowars{background:url('../pics/sprite3.png') -120px 0;}
+/*#spr_rotrix a:hover{background: url('../pics/sprite2.png') 0 -95px;}*/
 
-#spr_optika{left:113px;width:112px;}
-#spr_optika{background:url('../pics/sprite.png') -112px 0;}
-#spr_optika a:hover{background: url('../pics/sprite.png') -113px -95px;}
+#spr_irobot{left:260px;width:100px;}
+#spr_irobot{background:url('../pics/sprite3.png') -230px 0;}
+/*#spr_modex a:hover{background: url('../pics/sprite2.png') -113px -95px;}*/
 
-#spr_irobot{left:226px;width:112px;}
-#spr_irobot{background:url('../pics/sprite.png') -224px 0;}
-#spr_irobot a:hover{background: url('../pics/sprite.png') -224px -95px;}
+#spr_optika{left:360px;width:100px;}
+#spr_optika{background:url('../pics/sprite3.png') -350px 0;}
+/*#spr_extreme a:hover{background: url('../pics/sprite2.png') -224px -95px;}*/
 
-#spr_dnt{left:339px;width:112px;}
-#spr_dnt{background:url('../pics/sprite.png') -337px 0;}
-#spr_dnt a:hover{background: url('../pics/sprite.png') -336px -95px;}
+#spr_dnt{left:440px;width:100px;}
+#spr_dnt{background:url('../pics/sprite3.png') -440px 0;}
+/*#spr_balvigyan a:hover{background: url('../pics/sprite2.png') -336px -95px;}*/
 
 #extreme_engg{position:relative;}
 #extreme_engg li{margin:0;padding:0;list-style:none;position:absolute;top:0;margin-left:3%;}
 #extreme_engg li, #extreme_engg a{height:95px;display:block;}
 
-#spr_akshay{left:0px;width:112px;}
-#spr_akshay{background:url('../pics/sprite.png') 0 0;}
-#spr_akshay a:hover{background: url('../pics/sprite.png') 0 -95px;}
+#spr_gldbrg{left:0px;width:112px;}
+#spr_gldbrg{background:url('../pics/sprite.png') 0 0;}
+#spr_gldbrg a:hover{background: url('../pics/sprite.png') 0 -95px;}
 
 #spr_chemo{left:113px;width:112px;}
 #spr_chemo{background:url('../pics/sprite.png') -112px 0;}
@@ -354,7 +353,7 @@ margin-top:0px;
 #workshop li{margin:0;padding:0;list-style:none;position:absolute;top:0;margin-left:3%;}
 #workshop li, #workshop a{height:95px;display:block;}
 
-#spr_robowars{left:0px;width:112px;}
+/*#spr_robowars{left:0px;width:112px;}
 #spr_robowars{background:url('../pics/sprite.png') 0 0;}
 #spr_robowars a:hover{background: url('../pics/sprite.png') 0 -95px;}
 
@@ -368,10 +367,7 @@ margin-top:0px;
 
 #spr_dnt{left:339px;width:112px;}
 #spr_dnt{background:url('../pics/sprite.png') -337px 0;}
-#spr_dnt a:hover{background: url('../pics/sprite.png') -336px -95px;}
-
-input {font-size:0.7em;border:none;padding-left:3px;padding-right:3px;margin-top:3px;margin-bottom:3px;}
-input[type="submit"] {margin-top:5px;}
+#spr_dnt a:hover{background: url('../pics/sprite.png') -336px -95px;}*/
 
 /*iphone.css*/
 
