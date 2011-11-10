@@ -207,7 +207,7 @@ margin-top:0px;
 #navlist li, #navlist a{height:95px;display:block;}
 #navlist li:hover {cursor: pointer;opacity:0.7;}
 input {display:block;border:none;font-size:0.7em;padding:3px;margin-top:5px;margin-bottom:5px;}
-input[type="submit"] {margin-top:10px;}
+input[type="submit"] {margin-top:10px;padding:5px;}
 
 #event{left:0px;width:112px;}
 #event{background:url('../pics/sprite.png') 0 0;}
