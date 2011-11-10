@@ -58,7 +58,7 @@
 ----------------------------------*/
 .ui-widget { font-family: Segoe UI, Arial, sans-serif; font-size: 1.1em; }
 .ui-widget .ui-widget { font-size: 1em; }
-.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Segoe UI, Arial, sans-serif; font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Segoe UI, Arial, sans-serif; font-size: 0.7em; }
 .ui-widget-content { /*border: 1px solid #666666;*/ background: url('../pics/csspic//ui-bg_inset-soft_25_000000_1x100.png') 50% bottom repeat-x; color: #ffffff; }
 .ui-widget-content a { color: #ffffff; }
 .ui-widget-header { border-bottom:2px solid #6395f7; background: url('../pics/csspic//ui-bg_gloss-wave_25_333333_500x100.png') 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
@@ -205,6 +205,9 @@ margin-top:0px;
 #navlist{position:relative;}
 #navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;margin-left:3%;}
 #navlist li, #navlist a{height:95px;display:block;}
+#navlist li:hover {cursor: pointer;opacity:0.7;}
+input {display:block;border:none;font-size:0.7em;padding:3px;margin-top:5px;margin-bottom:5px;}
+input[type="submit"] {margin-top:10px;}
 
 #event{left:0px;width:112px;}
 #event{background:url('../pics/sprite.png') 0 0;}
