@@ -468,9 +468,9 @@ blockquote, q {quotes: "" "";}
 	}
 .content-box .inner ul li,
 .content-box .inner ol li {
-	font-size: 0.69em;
+	font-size: 0.9em;
 	line-height: 1.25;
-	margin: 0 0 3px;
+	margin-left: 5px;
 	}
 /* No IE sorry */
 ::-moz-selection {
