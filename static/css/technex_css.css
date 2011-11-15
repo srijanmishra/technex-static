@@ -468,10 +468,14 @@ blockquote, q {quotes: "" "";}
 	}
 .content-box .inner ul li,
 .content-box .inner ol li {
-	font-size: 0.9em;
+	font-size: 0.69em;
 	line-height: 1.25;
-	margin-left: 5px;
+	margin-left: 3px;
 	}
+.ui-tabs-panel {
+    margin-left: 5px;
+    font-size: 0.9em;
+}
 /* No IE sorry */
 ::-moz-selection {
 	background: #000;
