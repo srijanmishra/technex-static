@@ -472,7 +472,7 @@ blockquote, q {quotes: "" "";}
 	line-height: 1.25;
 	margin-left: 3px;
 	}
-.ui-tabs-panel {
+.ui-tabs-panel li {
     margin-left: 5px;
     font-size: 0.9em;
 }
